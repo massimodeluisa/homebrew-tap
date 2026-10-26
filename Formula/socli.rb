@@ -5,25 +5,25 @@ class Socli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/massimodeluisa/socli/releases/download/v0.1.1/socli-0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "71452bc90df05656f2bee4a7ae5ad253b83ba71a76b81089cdc275aad8dffd35"
+      url "https://github.com/massimodeluisa/socli/releases/download/v0.1.2/socli-0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "0447793e80148bac6bb379f4b7a4c9d85850f424f93d1d2decdcafebd962f6cc"
     end
 
     on_intel do
-      url "https://github.com/massimodeluisa/socli/releases/download/v0.1.1/socli-0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "a14a9428b0e8fb3f3d06852946d490af5a0ea0bb7ccd4eaadb31e37757730894"
+      url "https://github.com/massimodeluisa/socli/releases/download/v0.1.2/socli-0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "63c4e3b427f859df61f61525c9f1af0fb62cf10c07e8fa3688d6db6eba25bd35"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/massimodeluisa/socli/releases/download/v0.1.1/socli-0.1.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "13599bc34ca5979d3b5327fec66e1dc89b56ccafc9f42827ad7081f185674b51"
+      url "https://github.com/massimodeluisa/socli/releases/download/v0.1.2/socli-0.1.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "6b4dfe8bcb58053a68519ba2dd7f71eddbd8d25e9a3e86d06ebf5edab68058e6"
     end
 
     on_intel do
-      url "https://github.com/massimodeluisa/socli/releases/download/v0.1.1/socli-0.1.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "68d6e4736f85da682c7c1221085c0990d1259c78d6c70916c97ff6593c84668c"
+      url "https://github.com/massimodeluisa/socli/releases/download/v0.1.2/socli-0.1.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "e218336473a99f89d237035b674c6cbb4da9c6532bb50f41abfa592d43d1719f"
     end
   end
 
